@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@color/tabler_icon"
+        android:pathData="M12.684,3.27l0.084,0.09l4.7,5.64h3.532a1,1 0,0 1,0.991 1.131l-0.02,0.112l-1.984,7.918c-0.258,1.578 -1.41,2.781 -2.817,2.838l-0.17,0.001l-10.148,-0.002c-1.37,-0.053 -2.484,-1.157 -2.787,-2.57l-0.035,-0.185l-2,-8a1,1 0,0 1,0.857 -1.237l0.113,-0.006h3.53l4.702,-5.64a1,1 0,0 1,1.452 -0.09zM12,12a3,3 0,0 0,-2.98 2.65l-0.015,0.174l-0.005,0.176l0.005,0.176a3,3 0,1 0,2.995 -3.176zM12,5.562l-2.865,3.438h5.73l-2.865,-3.438z"
+        android:strokeWidth="0"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>
