@@ -1,40 +1,29 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
+    android:autoMirrored="true"
     android:viewportWidth="24"
     android:viewportHeight="24">
     <path
-        android:pathData="M9,5m-1,0a1,1 0,1 0,2 0a1,1 0,1 0,-2 0"
+        android:pathData="M10.828,9.828a4,4 0,1 0,-5.656 0l2.828,2.829l2.828,-2.829z"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M9,12m-1,0a1,1 0,1 0,2 0a1,1 0,1 0,-2 0"
+        android:pathData="M8,7l0,0.01"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M9,19m-1,0a1,1 0,1 0,2 0a1,1 0,1 0,-2 0"
+        android:pathData="M18.828,17.828a4,4 0,1 0,-5.656 0l2.828,2.829l2.828,-2.829z"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M15,5m-1,0a1,1 0,1 0,2 0a1,1 0,1 0,-2 0"
-        android:strokeWidth="2"
-        android:strokeColor="@color/tabler_icon"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round" />
-    <path
-        android:pathData="M15,12m-1,0a1,1 0,1 0,2 0a1,1 0,1 0,-2 0"
-        android:strokeWidth="2"
-        android:strokeColor="@color/tabler_icon"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round" />
-    <path
-        android:pathData="M15,19m-1,0a1,1 0,1 0,2 0a1,1 0,1 0,-2 0"
+        android:pathData="M16,15l0,0.01"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
