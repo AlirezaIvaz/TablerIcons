@@ -2,8 +2,12 @@
 
 [![](https://jitpack.io/v/ir.alirezaivaz/tablericons.svg)](https://jitpack.io/#ir.alirezaivaz/tablericons)
 [![Apache2](http://img.shields.io/badge/license-APACHE2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![API 21](https://img.shields.io/badge/Min%20API-21-brightgreen)](https://developer.android.com/about/versions/lollipop)
+[![Kotlin 1.8.0](https://img.shields.io/badge/Kotlin-1.8.0-blueviolet)](https://kotlinlang.org)
+[![Issues](https://img.shields.io/github/issues/AlirezaIvaz/TablerIcons)](https://github.com/AlirezaIvaz/TablerIcons/issues)
 
-[TablerIcons](https://tabler-icons.io) is a set of over 4050 free MIT-licensed high-quality SVG icons for you to use in your projects.
+[TablerIcons](https://tabler-icons.io) is a set of over 4050 free MIT-licensed high-quality SVG
+icons for you to use in your projects.
 
 This library offers you the vector drawable version of these icons with some additional features that you can easily use in your Android projects.
 
@@ -29,7 +33,7 @@ allprojects {
 
 </details>
 
-<details>
+<details open>
 <summary><code>build.gradle.kts</code></summary>
 
 ```kotlin
@@ -92,7 +96,7 @@ Now add the library dependency in your application module `build.gradle` or `bui
 ```groovy
 dependencies {
     ...
-    def tablerIconsVersion = "0.1.0" // You can find the latest version from releases page
+    def tablerIconsVersion = "0.9.0" // You can find the latest version from releases page
     implementation "ir.alirezaivaz.tablericons:$tablerIconsVersion"
 }
 ```
@@ -105,7 +109,7 @@ dependencies {
 ```kotlin
 dependencies {
     ...
-    val tablerIconsVersion = "0.1.0" // You can find the latest version from releases page
+    val tablerIconsVersion = "0.9.0" // You can find the latest version from releases page
     implementation("ir.alirezaivaz.tablericons:$tablerIconsVersion")
 }
 ```
@@ -125,7 +129,7 @@ Just call the desired icon from the drawables like this:
 You can see the list of icons categorized on [this page](https://tabler-icons.io).
 
 > **Note:** The names of all icons in this library start with `ic_` and instead of `-` (dash) you should use `_` (underline).<br>
-E.g: If you want to use an icon named `arrow-back`, you should change its name to `ic_arrow_back`.
+> E.g: If you want to use an icon named `arrow-back`, you should change its name to `ic_arrow_back`.
 
 ### Change the color of icons
 
