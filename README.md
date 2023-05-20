@@ -92,7 +92,7 @@ Now add the library dependency in your application module `build.gradle` or `bui
 ```groovy
 dependencies {
     ...
-    def tablerIconsVersion = "0.9.0" // You can find the latest version from releases page
+    def tablerIconsVersion = "0.10.0" // You can find the latest version from releases page
     implementation "ir.alirezaivaz.tablericons:$tablerIconsVersion"
 }
 ```
@@ -105,7 +105,7 @@ dependencies {
 ```kotlin
 dependencies {
     ...
-    val tablerIconsVersion = "0.9.0" // You can find the latest version from releases page
+    val tablerIconsVersion = "0.10.0" // You can find the latest version from releases page
     implementation("ir.alirezaivaz.tablericons:$tablerIconsVersion")
 }
 ```
