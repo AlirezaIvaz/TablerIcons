@@ -77,7 +77,7 @@ dependencyResolutionManagement {
     repositories {
         ...
         maven {
-            url = uri("https://jtipack.io")
+            url = uri("https://jitpack.io")
         }
     }
 }
