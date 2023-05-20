@@ -6,7 +6,7 @@
 [![Kotlin 1.8.0](https://img.shields.io/badge/Kotlin-1.8.0-blueviolet)](https://kotlinlang.org)
 [![Issues](https://img.shields.io/github/issues/AlirezaIvaz/TablerIcons)](https://github.com/AlirezaIvaz/TablerIcons/issues)
 
-[TablerIcons](https://tabler-icons.io) is a set of over 4050 free MIT-licensed high-quality SVG
+[TablerIcons](https://tabler-icons.io) ([Github](https://github.com/tabler/tabler-icons)) is a set of over 4050 free MIT-licensed high-quality SVG
 icons for you to use in your projects.
 
 This library offers you the vector drawable version of these icons with some additional features that you can easily use in your Android projects.
