@@ -4,43 +4,43 @@
     android:viewportWidth="24"
     android:viewportHeight="24">
     <path
-        android:pathData="M4,9.505h16v-5a1,1 0,0 0,-1 -1h-14a1,1 0,0 0,-1 1v5z"
+        android:pathData="M4,10.005h16v-5a1,1 0,0 0,-1 -1h-14a1,1 0,0 0,-1 1v5z"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M4,14.505v-0.01"
+        android:pathData="M4,15.005v-0.01"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M4,19.505v-0.01"
+        android:pathData="M4,20.005v-0.01"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M9,19.505v-0.01"
+        android:pathData="M9,20.005v-0.01"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M15,19.505v-0.01"
+        android:pathData="M15,20.005v-0.01"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M20,19.505v-0.01"
+        android:pathData="M20,20.005v-0.01"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M20,14.505v-0.01"
+        android:pathData="M20,15.005v-0.01"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
