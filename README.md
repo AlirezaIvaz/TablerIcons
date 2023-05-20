@@ -40,9 +40,7 @@ allprojects {
 allprojects {
     repositories {
         ...
-        maven {
-            url = uri("https://jitpack.io")
-        }
+        maven("https://jitpack.io")
     }
 }
 ```
@@ -76,9 +74,7 @@ dependencyResolutionManagement {
     ...
     repositories {
         ...
-        maven {
-            url = uri("https://jitpack.io")
-        }
+        maven("https://jitpack.io")
     }
 }
 ```
