@@ -93,7 +93,7 @@ Now add the library dependency in your application module `build.gradle` or `bui
 dependencies {
     ...
     def tablerIconsVersion = "0.10.0" // You can find the latest version from releases page
-    implementation "ir.alirezaivaz.tablericons:$tablerIconsVersion"
+    implementation "ir.alirezaivaz:tablericons:$tablerIconsVersion"
 }
 ```
 
@@ -106,7 +106,7 @@ dependencies {
 dependencies {
     ...
     val tablerIconsVersion = "0.10.0" // You can find the latest version from releases page
-    implementation("ir.alirezaivaz.tablericons:$tablerIconsVersion")
+    implementation("ir.alirezaivaz:tablericons:$tablerIconsVersion")
 }
 ```
 
