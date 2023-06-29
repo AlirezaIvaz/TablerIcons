@@ -92,7 +92,7 @@ First add dependency in your project version catalog like this:
     
 ```toml
 [version]
-tablericons = "0.10.0" # You can find the latest version from releases page
+tablericons = "0.11.0" # You can find the latest version from releases page
 
 [libraries]
 tablericons = { group = "ir.alirezaivaz", name = "tablericons", version.ref = "tablericons" }
@@ -136,7 +136,7 @@ Just add the library dependency in your application module `build.gradle` or `bu
 ```groovy
 dependencies {
     ...
-    def tablerIconsVersion = "0.10.0" // You can find the latest version from releases page
+    def tablerIconsVersion = "0.11.0" // You can find the latest version from releases page
     implementation "ir.alirezaivaz:tablericons:$tablerIconsVersion"
 }
 ```
@@ -149,7 +149,7 @@ dependencies {
 ```kotlin
 dependencies {
     ...
-    val tablerIconsVersion = "0.10.0" // You can find the latest version from releases page
+    val tablerIconsVersion = "0.11.0" // You can find the latest version from releases page
     implementation("ir.alirezaivaz:tablericons:$tablerIconsVersion")
 }
 ```
