@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0
+
+* Sync with **Tabler Icons 2.23.0**
+* Added 18 new icons
+* Fixed `ce` icon
+* Added functions to get icons as resource id and drawable from codes
+
 ## 0.12.0
 
 * Sync with **Tabler Icons 2.22.0**
