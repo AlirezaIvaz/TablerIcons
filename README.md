@@ -183,7 +183,8 @@ If you want to change the color of all icons at once, override `tabler_icon` to 
 </resources>
 ```
 
-Otherwise, if you want to change the color of one icon, just use `app:tint` attribute in your `ImageView` like this:
+Otherwise, if you want to change the color of one icon, you can use `app:tint` attribute in
+your `ImageView` like this:
 
 ```xml
 <ImageView
