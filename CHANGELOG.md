@@ -2,9 +2,9 @@
 
 ## 0.10.0
 
-* Sync with **Tabler Icons 1.19.0**
-* Added 18 new icons
-* Fixed 6 icons
+* Sync with **Tabler Icons 1.20.0**
+* Added 55 new icons
+* Fixed 12 icons
 
 ## 0.9.0
 
