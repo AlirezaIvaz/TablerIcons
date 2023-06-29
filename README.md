@@ -83,8 +83,52 @@ dependencyResolutionManagement {
 
 ### 2. Adding the library dependency
 
-Now add the library dependency in your application module `build.gradle` or `build.gradle.kts` file like this:
+#### Gradle Version Catalog
 
+First add dependency in your project version catalog like this:
+
+<details open>
+<summary><code>libs.versions.toml</code></summary>
+    
+```toml
+[version]
+tablericons = "0.9.0" # You can find the latest version from releases page
+
+[libraries]
+tablericons = { group = "ir.alirezaivaz", name = "tablericons", version.ref = "tablericons" }
+```
+
+</details>
+
+Then add the library dependency in your application module `build.gradle` or `build.gradle.kts` file like this:
+
+<details>
+<summary><code>build.gradle</code></summary>
+
+```groovy
+dependencies {
+    ...
+    implementation libs.tablericons
+}
+```
+
+</details>
+
+<details open>
+<summary><code>build.gradle.kts</code></summary>
+
+```kotlin
+dependencies {
+    ...
+    implementation(libs.tablericons)
+}
+```
+
+</details>
+
+#### Legacy
+
+Just add the library dependency in your application module `build.gradle` or `build.gradle.kts` file like this:
 
 <details>
 <summary><code>build.gradle</code></summary>
@@ -93,7 +137,7 @@ Now add the library dependency in your application module `build.gradle` or `bui
 dependencies {
     ...
     def tablerIconsVersion = "0.10.0" // You can find the latest version from releases page
-    implementation "ir.alirezaivaz.tablericons:$tablerIconsVersion"
+    implementation "ir.alirezaivaz:tablericons:$tablerIconsVersion"
 }
 ```
 
@@ -106,7 +150,7 @@ dependencies {
 dependencies {
     ...
     val tablerIconsVersion = "0.10.0" // You can find the latest version from releases page
-    implementation("ir.alirezaivaz.tablericons:$tablerIconsVersion")
+    implementation("ir.alirezaivaz:tablericons:$tablerIconsVersion")
 }
 ```
 
