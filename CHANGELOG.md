@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.12.0
+
+* Sync with **Tabler Icons 2.22.0**
+* Added 18 new icons
+* Enable auto mirror for `repeat` icon
+
 ## 0.11.0
 
 * Sync with **Tabler Icons 2.21.0**
