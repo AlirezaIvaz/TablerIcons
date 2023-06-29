@@ -23,6 +23,7 @@ object TablerIcons {
      * @author Alireza Ivaz
      * @since 1.0.0
      */
+    @Deprecated("Use extensions instead of this function.")
     @SuppressLint("DiscouragedApi")
     @JvmStatic
     @DrawableRes
@@ -44,6 +45,7 @@ object TablerIcons {
      * @author Alireza Ivaz
      * @since 1.0.0
      */
+    @Deprecated("Use extensions instead of this function.")
     @JvmStatic
     fun getDrawable(context: Context, icon: String): Drawable? {
         val resourceId = getResId(context, icon)
