@@ -92,7 +92,7 @@ First add dependency in your project version catalog like this:
     
 ```toml
 [version]
-tablericons = "0.9.0" # You can find the latest version from releases page
+tablericons = "0.10.0" # You can find the latest version from releases page
 
 [libraries]
 tablericons = { group = "ir.alirezaivaz", name = "tablericons", version.ref = "tablericons" }
