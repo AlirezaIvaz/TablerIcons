@@ -4,7 +4,13 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.content.res.Resources
 import android.graphics.drawable.Drawable
+import android.widget.ImageView
 import androidx.annotation.DrawableRes
+import androidx.appcompat.content.res.AppCompatResources
+import androidx.appcompat.widget.AppCompatImageView
+import androidx.core.content.ContextCompat
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 object TablerIcons {
     /**
@@ -42,7 +48,7 @@ object TablerIcons {
     fun getDrawable(context: Context, icon: String): Drawable? {
         val resourceId = getResId(context, icon)
         return try {
-            context.getDrawable(resourceId)
+            AppCompatResources.getDrawable(context, resourceId)
         } catch (e: Exception) {
             null
         }
