@@ -10,8 +10,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://jitpack.io' }
+        maven("https://jitpack.io")
     }
 }
-rootProject.name = 'TablerIcons'
-include ':app', ':library'
+rootProject.name = "TablerIcons"
+include(":app", ":library")
