@@ -158,18 +158,84 @@ dependencies {
 
 ## Usage
 
+You can see the list of icons categorized on [this page](https://tabler-icons.io).
+
+> **Note:** The names of all icons in this library start with `ic_` and instead of `-` (dash) you
+> should use `_` (underline).<br>
+> E.g: If you want to use an icon named `arrow-back`, you should change its name to `ic_arrow_back`.
+
+### XML views
+
 Just call the desired icon from the drawables like this:
+
 ```xml
-<ImageView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+
+<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
     android:src="@drawable/ic_arrow_back" />
 ```
 
-You can see the list of icons categorized on [this page](https://tabler-icons.io).
+### Java/Kotlin codes
 
-> **Note:** The names of all icons in this library start with `ic_` and instead of `-` (dash) you should use `_` (underline).<br>
-> E.g: If you want to use an icon named `arrow-back`, you should change its name to `ic_arrow_back`.
+You've three ways to get and use the icons you want:
+
+<details>
+<summary><code>Java</code></summary>
+
+```java
+import ir.alirezaivaz.tablericons.TablerIcons;
+
+public class ActivityMain extends AppCompatActivity {
+
+    @Override
+    void onCreate(Bundle bundle) {
+        super.onCreate(bundle);
+
+        // Get icon directly from library `R` class
+        int arrowBackIcon = ir.alirezaivaz.tablericons.R.ic_arrow_back;
+        imageView.setImageResource(arrowBackIcon);
+
+        // Get icon resource id
+        int arrowBackResId = TablerIcons.getResId(ActivityMain.this, "ic_arrow_back");
+        imageView.setImageResource(arrowBackResId);
+
+        // Get icon as Drawable
+        Drawable arrowBackDrawable = TablerIcons.getDrawable(ActivityMain.this, "ic_arrow_back");
+        imageView.setImageDrawable(arrowBackDrawable);
+
+    }
+
+}
+```
+
+</details>
+
+<details open>
+<summary><code>Kotlin</code></summary>
+
+```kotlin
+import ir.alirezaivaz.tablericons.TablerIcons
+
+class ActivityMain : AppCompatActivity() {
+    override fun onCreate(bundle: Bundle?) {
+        super.onCreate(bundle)
+
+        // Get icon directly from library `R` class
+        val arrowBackIcon = ir.alirezaivaz.tablericons.R.ic_arrow_back
+        imageView.setImageResource(arrowBackIcon)
+
+        // Get icon resource id
+        val arrowBackResId = TablerIcons.getResId(this@ActivityMain, "ic_arrow_back")
+        imageView.setImageResource(arrowBackResId)
+
+        // Get icon as Drawable
+        val arrowBackDrawable = TablerIcons.getDrawable(this@ActivityMain, "ic_arrow_back")
+        imageView.setImageDrawable(arrowBackDrawable)
+
+    }
+}
+```
+
+</details>
 
 ### Change the color of icons
 
