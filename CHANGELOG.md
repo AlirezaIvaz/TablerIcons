@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.0
+* Generate enum to hold list of all icons
+* Deprecated old functions (`TablerIcons` object functions)
+* Add `setIcon()` extension for
+  * `ImageView`
+  * `AppCompatImageView`
+  * `FloatingActionButton`
+  * `ExtendedFloatingActionButton`
+
 ## 1.0.0
 
 * Sync with **Tabler Icons 2.23.0**
