@@ -2,18 +2,18 @@
 
 ## 0.11.0
 
-* Sync with **Tabler Icons 1.21.0**
+* Sync with **Tabler Icons 2.21.0**
 * Added 18 new icons
 
 ## 0.10.0
 
-* Sync with **Tabler Icons 1.20.0**
+* Sync with **Tabler Icons 2.20.0**
 * Added 55 new icons
 * Fixed 12 icons
 
 ## 0.9.0
 
-* Sync with **Tabler Icons 1.18.0**
+* Sync with **Tabler Icons 2.18.0**
 * Added 36 new icons
 * Fixed `logout` icon
 
