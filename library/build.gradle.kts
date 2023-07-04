@@ -1,5 +1,6 @@
 plugins {
     id("com.android.library")
+    id("maven-publish")
     kotlin("android")
 }
 
@@ -79,4 +80,17 @@ fun String.fixNumericName(): String {
  */
 fun String.toCamelCase(): String {
     return split("_").joinToString("") { it.capitalize() }
+}
+
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = "ir.alirezaivaz"
+            artifactId = "tablericons"
+            version = "1.2.0"
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
 }
