@@ -1,14 +1,16 @@
 package ir.alirezaivaz.tablericons
 
-enum class Icons(val resId: Int) {
-    _123(R.drawable.ic_123),
-    _24Hours(R.drawable.ic_24_hours),
-    _2fa(R.drawable.ic_2fa),
-    _360(R.drawable.ic_360),
-    _360View(R.drawable.ic_360_view),
-    _3dCubeSphere(R.drawable.ic_3d_cube_sphere),
-    _3dCubeSphereOff(R.drawable.ic_3d_cube_sphere_off),
-    _3dRotate(R.drawable.ic_3d_rotate),
+import androidx.annotation.DrawableRes
+
+enum class TablerIcons(@DrawableRes val resId: Int) {
+    N123(R.drawable.ic_123),
+    N24Hours(R.drawable.ic_24_hours),
+    N2fa(R.drawable.ic_2fa),
+    N360(R.drawable.ic_360),
+    N360View(R.drawable.ic_360_view),
+    N3dCubeSphere(R.drawable.ic_3d_cube_sphere),
+    N3dCubeSphereOff(R.drawable.ic_3d_cube_sphere_off),
+    N3dRotate(R.drawable.ic_3d_rotate),
     AB(R.drawable.ic_a_b),
     AB2(R.drawable.ic_a_b_2),
     ABOff(R.drawable.ic_a_b_off),

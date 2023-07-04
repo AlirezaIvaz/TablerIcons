@@ -14,7 +14,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
  * @author Alireza Ivaz
  * @since 1.1.0
  */
-fun ImageView.setIcon(icon: Icons) {
+fun ImageView.setIcon(icon: TablerIcons) {
     setImageResource(icon.resId)
 }
 
@@ -26,7 +26,7 @@ fun ImageView.setIcon(icon: Icons) {
  * @author Alireza Ivaz
  * @since 1.1.0
  */
-fun AppCompatImageView.setIcon(icon: Icons) {
+fun AppCompatImageView.setIcon(icon: TablerIcons) {
     setImageResource(icon.resId)
 }
 
@@ -38,7 +38,7 @@ fun AppCompatImageView.setIcon(icon: Icons) {
  * @author Alireza Ivaz
  * @since 1.1.0
  */
-fun FloatingActionButton.setIcon(icon: Icons) {
+fun FloatingActionButton.setIcon(icon: TablerIcons) {
     setImageResource(icon.resId)
 }
 
@@ -50,6 +50,6 @@ fun FloatingActionButton.setIcon(icon: Icons) {
  * @author Alireza Ivaz
  * @since 1.1.0
  */
-fun ExtendedFloatingActionButton.setIcon(context: Context, icon: Icons) {
+fun ExtendedFloatingActionButton.setIcon(context: Context, icon: TablerIcons) {
     setIcon(ContextCompat.getDrawable(context, icon.resId))
 }

@@ -46,7 +46,7 @@ task("generateIconsObject") {
     val iconObjectCode = buildString {
         appendLine("package ir.alirezaivaz.tablericons")
         appendLine()
-        appendLine("enum class Icons(val resId: Int) {")
+        appendLine("enum class TablerIcons(val resId: Int) {")
         append(drawableDir.listFiles()?.sorted()?.joinToString(separator = ",\n") {
             val variableName = it.name.toVariableName()
             "    $variableName(R.drawable.${it.nameWithoutExtension})"
@@ -54,7 +54,7 @@ task("generateIconsObject") {
         appendLine(";")
         appendLine("}")
     }
-    val iconObjectFile = File("${projectDir}/src/main/kotlin/ir/alirezaivaz/tablericons/Icons.kt")
+    val iconObjectFile = File("${projectDir}/src/main/kotlin/ir/alirezaivaz/tablericons/TablerIcons.kt")
     iconObjectFile.parentFile.mkdirs()
     iconObjectFile.writeText(iconObjectCode)
 }
