@@ -87,7 +87,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "ir.alirezaivaz"
             artifactId = "tablericons"
-            version = "1.2.2"
+            version = "1.2.3"
             afterEvaluate {
                 from(components["release"])
             }
