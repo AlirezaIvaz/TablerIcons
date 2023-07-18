@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0
+* Sync with **Tabler Icons 2.24.0**
+* Added 18 new icons
+
 ## 1.2.3
 * Fix JitPack build errors
 
