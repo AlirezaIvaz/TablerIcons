@@ -197,13 +197,8 @@ public class ActivityMain extends AppCompatActivity {
         int arrowBackIcon = ir.alirezaivaz.tablericons.R.ic_arrow_back;
         imageView.setImageResource(arrowBackIcon);
 
-        // Get icon resource id
-        int arrowBackResId = TablerIcons.getResId(ActivityMain.this, "ic_arrow_back");
-        imageView.setImageResource(arrowBackResId);
-
-        // Get icon as Drawable
-        Drawable arrowBackDrawable = TablerIcons.getDrawable(ActivityMain.this, "ic_arrow_back");
-        imageView.setImageDrawable(arrowBackDrawable);
+        // Use `TablerIcons` object
+        imageView.setImageResource(TablerIcons.ArrowBackUp);
 
     }
 
@@ -226,13 +221,8 @@ class ActivityMain : AppCompatActivity() {
         val arrowBackIcon = ir.alirezaivaz.tablericons.R.ic_arrow_back
         imageView.setImageResource(arrowBackIcon)
 
-        // Get icon resource id
-        val arrowBackResId = TablerIcons.getResId(this@ActivityMain, "ic_arrow_back")
-        imageView.setImageResource(arrowBackResId)
-
-        // Get icon as Drawable
-        val arrowBackDrawable = TablerIcons.getDrawable(this@ActivityMain, "ic_arrow_back")
-        imageView.setImageDrawable(arrowBackDrawable)
+        // Use `TablerIcons` object
+        imageView.setImageResource(TablerIcons.ArrowBackUp)
 
     }
 }
