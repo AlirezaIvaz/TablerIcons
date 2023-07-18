@@ -788,6 +788,7 @@ object TablerIcons {
     val BrandMessenger = R.drawable.ic_brand_messenger
     val BrandMeta = R.drawable.ic_brand_meta
     val BrandMicrosoftTeams = R.drawable.ic_brand_microsoft_teams
+    val BrandMinecraft = R.drawable.ic_brand_minecraft
     val BrandMiniprogram = R.drawable.ic_brand_miniprogram
     val BrandMixpanel = R.drawable.ic_brand_mixpanel
     val BrandMonday = R.drawable.ic_brand_monday
@@ -1184,6 +1185,10 @@ object TablerIcons {
     val ChessQueenFilled = R.drawable.ic_chess_queen_filled
     val ChessRook = R.drawable.ic_chess_rook
     val ChessRookFilled = R.drawable.ic_chess_rook_filled
+    val ChevronCompactDown = R.drawable.ic_chevron_compact_down
+    val ChevronCompactLeft = R.drawable.ic_chevron_compact_left
+    val ChevronCompactRight = R.drawable.ic_chevron_compact_right
+    val ChevronCompactUp = R.drawable.ic_chevron_compact_up
     val ChevronDown = R.drawable.ic_chevron_down
     val ChevronDownLeft = R.drawable.ic_chevron_down_left
     val ChevronDownRight = R.drawable.ic_chevron_down_right
@@ -1442,6 +1447,7 @@ object TablerIcons {
     val ColorSwatchOff = R.drawable.ic_color_swatch_off
     val ColumnInsertLeft = R.drawable.ic_column_insert_left
     val ColumnInsertRight = R.drawable.ic_column_insert_right
+    val ColumnRemove = R.drawable.ic_column_remove
     val Columns = R.drawable.ic_columns
     val Columns1 = R.drawable.ic_columns_1
     val Columns2 = R.drawable.ic_columns_2
@@ -1552,6 +1558,7 @@ object TablerIcons {
     val CurrencyEthereum = R.drawable.ic_currency_ethereum
     val CurrencyEuro = R.drawable.ic_currency_euro
     val CurrencyEuroOff = R.drawable.ic_currency_euro_off
+    val CurrencyFlorin = R.drawable.ic_currency_florin
     val CurrencyForint = R.drawable.ic_currency_forint
     val CurrencyFrank = R.drawable.ic_currency_frank
     val CurrencyGuarani = R.drawable.ic_currency_guarani
@@ -2088,6 +2095,7 @@ object TablerIcons {
     val Filters = R.drawable.ic_filters
     val Fingerprint = R.drawable.ic_fingerprint
     val FingerprintOff = R.drawable.ic_fingerprint_off
+    val FireExtinguisher = R.drawable.ic_fire_extinguisher
     val FireHydrant = R.drawable.ic_fire_hydrant
     val FireHydrantOff = R.drawable.ic_fire_hydrant_off
     val Firetruck = R.drawable.ic_firetruck
@@ -2143,6 +2151,7 @@ object TablerIcons {
     val FolderHeart = R.drawable.ic_folder_heart
     val FolderMinus = R.drawable.ic_folder_minus
     val FolderOff = R.drawable.ic_folder_off
+    val FolderOpen = R.drawable.ic_folder_open
     val FolderPause = R.drawable.ic_folder_pause
     val FolderPin = R.drawable.ic_folder_pin
     val FolderPlus = R.drawable.ic_folder_plus
@@ -2257,6 +2266,7 @@ object TablerIcons {
     val HangerOff = R.drawable.ic_hanger_off
     val Hash = R.drawable.ic_hash
     val Haze = R.drawable.ic_haze
+    val HazeMoon = R.drawable.ic_haze_moon
     val Hdr = R.drawable.ic_hdr
     val Heading = R.drawable.ic_heading
     val HeadingOff = R.drawable.ic_heading_off
@@ -2498,6 +2508,7 @@ object TablerIcons {
     val Lamp = R.drawable.ic_lamp
     val Lamp2 = R.drawable.ic_lamp_2
     val LampOff = R.drawable.ic_lamp_off
+    val Lane = R.drawable.ic_lane
     val Language = R.drawable.ic_language
     val LanguageHiragana = R.drawable.ic_language_hiragana
     val LanguageKatakana = R.drawable.ic_language_katakana
@@ -2600,6 +2611,7 @@ object TablerIcons {
     val ListDetails = R.drawable.ic_list_details
     val ListNumbers = R.drawable.ic_list_numbers
     val ListSearch = R.drawable.ic_list_search
+    val ListTree = R.drawable.ic_list_tree
     val LivePhoto = R.drawable.ic_live_photo
     val LivePhotoOff = R.drawable.ic_live_photo_off
     val LiveView = R.drawable.ic_live_view
@@ -2777,6 +2789,7 @@ object TablerIcons {
     val Menorah = R.drawable.ic_menorah
     val Menu = R.drawable.ic_menu
     val Menu2 = R.drawable.ic_menu_2
+    val MenuDeep = R.drawable.ic_menu_deep
     val MenuOrder = R.drawable.ic_menu_order
     val Message = R.drawable.ic_message
     val Message2 = R.drawable.ic_message_2
@@ -3105,6 +3118,7 @@ object TablerIcons {
     val PhotoX = R.drawable.ic_photo_x
     val Physotherapist = R.drawable.ic_physotherapist
     val Piano = R.drawable.ic_piano
+    val Pick = R.drawable.ic_pick
     val PictureInPicture = R.drawable.ic_picture_in_picture
     val PictureInPictureOff = R.drawable.ic_picture_in_picture_off
     val PictureInPictureOn = R.drawable.ic_picture_in_picture_on
@@ -3316,6 +3330,7 @@ object TablerIcons {
     val ReservedLine = R.drawable.ic_reserved_line
     val Resize = R.drawable.ic_resize
     val ResourceSwitch = R.drawable.ic_resource_switch
+    val Restore = R.drawable.ic_restore
     val RewindBackward10 = R.drawable.ic_rewind_backward_10
     val RewindBackward15 = R.drawable.ic_rewind_backward_15
     val RewindBackward20 = R.drawable.ic_rewind_backward_20
@@ -3372,6 +3387,7 @@ object TablerIcons {
     val RouterOff = R.drawable.ic_router_off
     val RowInsertBottom = R.drawable.ic_row_insert_bottom
     val RowInsertTop = R.drawable.ic_row_insert_top
+    val RowRemove = R.drawable.ic_row_remove
     val Rss = R.drawable.ic_rss
     val RubberStamp = R.drawable.ic_rubber_stamp
     val RubberStampOff = R.drawable.ic_rubber_stamp_off
@@ -3845,6 +3861,7 @@ object TablerIcons {
     val Swords = R.drawable.ic_swords
     val Table = R.drawable.ic_table
     val TableAlias = R.drawable.ic_table_alias
+    val TableColumn = R.drawable.ic_table_column
     val TableDown = R.drawable.ic_table_down
     val TableExport = R.drawable.ic_table_export
     val TableFilled = R.drawable.ic_table_filled
@@ -3854,6 +3871,7 @@ object TablerIcons {
     val TableOff = R.drawable.ic_table_off
     val TableOptions = R.drawable.ic_table_options
     val TablePlus = R.drawable.ic_table_plus
+    val TableRow = R.drawable.ic_table_row
     val TableShare = R.drawable.ic_table_share
     val TableShortcut = R.drawable.ic_table_shortcut
     val Tag = R.drawable.ic_tag
