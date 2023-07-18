@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.0
+* Sync with **Tabler Icons 2.25.0**
+* Added 30 new icons
+* Fixed 3 icons
+
 ## 1.3.0
 * Sync with **Tabler Icons 2.24.0**
 * Added 18 new icons
