@@ -173,7 +173,9 @@ Just call the desired icon from the drawables like this:
 
 ```xml
 
-<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:src="@drawable/ic_arrow_back" />
 ```
 
