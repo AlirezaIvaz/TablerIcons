@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.2.3
+* Fix JitPack build errors
+
+## 1.2.2
+* Upgrade Java to Java 17
+
+## 1.2.1
+* Upgrade Java to Java 17
+
+## 1.2.0
+* Remove deprecated functions and also extensions
+* Rename icons holder file
+* Use object instead of enum for holding icons
+* Upgrade Gradle to 8.0 and AGP to 8.0.2
+
 ## 1.1.0
 * Generate enum to hold list of all icons
 * Deprecated old functions (`TablerIcons` object functions)
