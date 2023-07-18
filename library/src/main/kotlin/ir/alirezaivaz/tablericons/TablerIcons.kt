@@ -540,6 +540,7 @@ object TablerIcons {
     val BookmarkPlus = R.drawable.ic_bookmark_plus
     val BookmarkQuestion = R.drawable.ic_bookmark_question
     val Bookmarks = R.drawable.ic_bookmarks
+    val BookmarksFilled = R.drawable.ic_bookmarks_filled
     val BookmarksOff = R.drawable.ic_bookmarks_off
     val Books = R.drawable.ic_books
     val BooksOff = R.drawable.ic_books_off
@@ -562,9 +563,12 @@ object TablerIcons {
     val BottleFilled = R.drawable.ic_bottle_filled
     val BottleOff = R.drawable.ic_bottle_off
     val BounceLeft = R.drawable.ic_bounce_left
+    val BounceLeftFilled = R.drawable.ic_bounce_left_filled
     val BounceRight = R.drawable.ic_bounce_right
+    val BounceRightFilled = R.drawable.ic_bounce_right_filled
     val Bow = R.drawable.ic_bow
     val Bowl = R.drawable.ic_bowl
+    val BowlFilled = R.drawable.ic_bowl_filled
     val Box = R.drawable.ic_box
     val BoxAlignBottom = R.drawable.ic_box_align_bottom
     val BoxAlignBottomFilled = R.drawable.ic_box_align_bottom_filled
@@ -964,9 +968,11 @@ object TablerIcons {
     val Brightness = R.drawable.ic_brightness
     val Brightness2 = R.drawable.ic_brightness_2
     val BrightnessDown = R.drawable.ic_brightness_down
+    val BrightnessDownFilled = R.drawable.ic_brightness_down_filled
     val BrightnessHalf = R.drawable.ic_brightness_half
     val BrightnessOff = R.drawable.ic_brightness_off
     val BrightnessUp = R.drawable.ic_brightness_up
+    val BrightnessUpFilled = R.drawable.ic_brightness_up_filled
     val Broadcast = R.drawable.ic_broadcast
     val BroadcastOff = R.drawable.ic_broadcast_off
     val Browser = R.drawable.ic_browser
@@ -1018,10 +1024,12 @@ object TablerIcons {
     val Businessplan = R.drawable.ic_businessplan
     val Butterfly = R.drawable.ic_butterfly
     val Cactus = R.drawable.ic_cactus
+    val CactusFilled = R.drawable.ic_cactus_filled
     val CactusOff = R.drawable.ic_cactus_off
     val Cake = R.drawable.ic_cake
     val CakeOff = R.drawable.ic_cake_off
     val Calculator = R.drawable.ic_calculator
+    val CalculatorFilled = R.drawable.ic_calculator_filled
     val CalculatorOff = R.drawable.ic_calculator_off
     val Calendar = R.drawable.ic_calendar
     val CalendarBolt = R.drawable.ic_calendar_bolt
@@ -1034,6 +1042,7 @@ object TablerIcons {
     val CalendarDue = R.drawable.ic_calendar_due
     val CalendarEvent = R.drawable.ic_calendar_event
     val CalendarExclamation = R.drawable.ic_calendar_exclamation
+    val CalendarFilled = R.drawable.ic_calendar_filled
     val CalendarHeart = R.drawable.ic_calendar_heart
     val CalendarMinus = R.drawable.ic_calendar_minus
     val CalendarOff = R.drawable.ic_calendar_off
@@ -1075,6 +1084,7 @@ object TablerIcons {
     val CameraX = R.drawable.ic_camera_x
     val Camper = R.drawable.ic_camper
     val Campfire = R.drawable.ic_campfire
+    val CampfireFilled = R.drawable.ic_campfire_filled
     val Candle = R.drawable.ic_candle
     val Candy = R.drawable.ic_candy
     val CandyOff = R.drawable.ic_candy_off
@@ -1083,6 +1093,7 @@ object TablerIcons {
     val Capsule = R.drawable.ic_capsule
     val CapsuleHorizontal = R.drawable.ic_capsule_horizontal
     val Capture = R.drawable.ic_capture
+    val CaptureFilled = R.drawable.ic_capture_filled
     val CaptureOff = R.drawable.ic_capture_off
     val Car = R.drawable.ic_car
     val CarCrane = R.drawable.ic_car_crane
@@ -1094,9 +1105,13 @@ object TablerIcons {
     val CardboardsOff = R.drawable.ic_cardboards_off
     val Cards = R.drawable.ic_cards
     val CaretDown = R.drawable.ic_caret_down
+    val CaretDownFilled = R.drawable.ic_caret_down_filled
     val CaretLeft = R.drawable.ic_caret_left
+    val CaretLeftFilled = R.drawable.ic_caret_left_filled
     val CaretRight = R.drawable.ic_caret_right
+    val CaretRightFilled = R.drawable.ic_caret_right_filled
     val CaretUp = R.drawable.ic_caret_up
+    val CaretUpFilled = R.drawable.ic_caret_up_filled
     val CarouselHorizontal = R.drawable.ic_carousel_horizontal
     val CarouselHorizontalFilled = R.drawable.ic_carousel_horizontal_filled
     val CarouselVertical = R.drawable.ic_carousel_vertical
@@ -1112,6 +1127,7 @@ object TablerIcons {
     val Cat = R.drawable.ic_cat
     val Category = R.drawable.ic_category
     val Category2 = R.drawable.ic_category_2
+    val CategoryFilled = R.drawable.ic_category_filled
     val Ce = R.drawable.ic_ce
     val CeOff = R.drawable.ic_ce_off
     val Cell = R.drawable.ic_cell
@@ -2985,6 +3001,7 @@ object TablerIcons {
     val MountainOff = R.drawable.ic_mountain_off
     val Mouse = R.drawable.ic_mouse
     val Mouse2 = R.drawable.ic_mouse_2
+    val MouseFilled = R.drawable.ic_mouse_filled
     val MouseOff = R.drawable.ic_mouse_off
     val Moustache = R.drawable.ic_moustache
     val Movie = R.drawable.ic_movie
@@ -3235,6 +3252,7 @@ object TablerIcons {
     val PointerDollar = R.drawable.ic_pointer_dollar
     val PointerDown = R.drawable.ic_pointer_down
     val PointerExclamation = R.drawable.ic_pointer_exclamation
+    val PointerFilled = R.drawable.ic_pointer_filled
     val PointerHeart = R.drawable.ic_pointer_heart
     val PointerMinus = R.drawable.ic_pointer_minus
     val PointerOff = R.drawable.ic_pointer_off
