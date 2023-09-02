@@ -4,19 +4,19 @@
     android:viewportWidth="24"
     android:viewportHeight="24">
     <path
-        android:pathData="M3,3m0,2a2,2 0,0 1,2 -2h14a2,2 0,0 1,2 2v14a2,2 0,0 1,-2 2h-14a2,2 0,0 1,-2 -2z"
+        android:pathData="M12.5,21h-7.5a2,2 0,0 1,-2 -2v-14a2,2 0,0 1,2 -2h14a2,2 0,0 1,2 2v7.5"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M9,12l6,0"
+        android:pathData="M16,19h6"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M12,9l0,6"
+        android:pathData="M19,16v6"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
