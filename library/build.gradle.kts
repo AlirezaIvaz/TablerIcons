@@ -39,7 +39,7 @@ dependencies {
 }
 
 /**
- * Generate an enum class that holds list of all icons
+ * Generate an object that holds list of all icons
  */
 task("generateIconsObject") {
     val drawableDir = File("${projectDir}/src/main/res/drawable")
