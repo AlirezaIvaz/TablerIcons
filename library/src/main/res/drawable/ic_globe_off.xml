@@ -5,25 +5,25 @@
     android:viewportWidth="24"
     android:viewportHeight="24">
     <path
-        android:pathData="M8.36,8.339a4,4 0,0 0,5.281 5.31m2,-1.98a4,4 0,0 0,-5.262 -5.325"
+        android:pathData="M7.353,7.355a4,4 0,0 0,5.29 5.293m2.007,-2.009a4,4 0,0 0,-5.3 -5.284"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M6.75,16a8.015,8.015 0,0 0,9.799 0.553m2.016,-2a8.015,8.015 0,0 0,-2.565 -11.555"
+        android:pathData="M5.75,15a8.015,8.015 0,0 0,9.792 0.557m2.02,-1.998a8.015,8.015 0,0 0,-2.562 -11.559"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M12,18v4"
+        android:pathData="M11,17v4"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M8,22h8"
+        android:pathData="M7,21h8"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
