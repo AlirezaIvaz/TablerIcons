@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.10.0
+** Sync with **Tabler Icons 2.31.0**
+** Added 18 new icons
+** Fixed 5 icons
+** Renamed `ic_brand_microsoft_teams` to `ic_brand_teams`
+
 ## 1.9.0
 * Sync with **Tabler Icons 2.30.0**
 * Added 32 new icons
