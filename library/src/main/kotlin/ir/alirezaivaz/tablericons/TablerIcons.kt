@@ -705,6 +705,7 @@ object TablerIcons {
     val BrandCupra = R.drawable.ic_brand_cupra
     val BrandCypress = R.drawable.ic_brand_cypress
     val BrandD3 = R.drawable.ic_brand_d3
+    val BrandDatabricks = R.drawable.ic_brand_databricks
     val BrandDaysCounter = R.drawable.ic_brand_days_counter
     val BrandDcos = R.drawable.ic_brand_dcos
     val BrandDebian = R.drawable.ic_brand_debian
@@ -812,7 +813,6 @@ object TablerIcons {
     val BrandMercedes = R.drawable.ic_brand_mercedes
     val BrandMessenger = R.drawable.ic_brand_messenger
     val BrandMeta = R.drawable.ic_brand_meta
-    val BrandMicrosoftTeams = R.drawable.ic_brand_microsoft_teams
     val BrandMinecraft = R.drawable.ic_brand_minecraft
     val BrandMiniprogram = R.drawable.ic_brand_miniprogram
     val BrandMixpanel = R.drawable.ic_brand_mixpanel
@@ -844,6 +844,7 @@ object TablerIcons {
     val BrandOpenvpn = R.drawable.ic_brand_openvpn
     val BrandOpera = R.drawable.ic_brand_opera
     val BrandPagekit = R.drawable.ic_brand_pagekit
+    val BrandParsinta = R.drawable.ic_brand_parsinta
     val BrandPatreon = R.drawable.ic_brand_patreon
     val BrandPaypal = R.drawable.ic_brand_paypal
     val BrandPaypalFilled = R.drawable.ic_brand_paypal_filled
@@ -912,6 +913,7 @@ object TablerIcons {
     val BrandTabler = R.drawable.ic_brand_tabler
     val BrandTailwind = R.drawable.ic_brand_tailwind
     val BrandTaobao = R.drawable.ic_brand_taobao
+    val BrandTeams = R.drawable.ic_brand_teams
     val BrandTed = R.drawable.ic_brand_ted
     val BrandTelegram = R.drawable.ic_brand_telegram
     val BrandTerraform = R.drawable.ic_brand_terraform
@@ -1136,9 +1138,11 @@ object TablerIcons {
     val CaretDownFilled = R.drawable.ic_caret_down_filled
     val CaretLeft = R.drawable.ic_caret_left
     val CaretLeftFilled = R.drawable.ic_caret_left_filled
+    val CaretLeftRight = R.drawable.ic_caret_left_right
     val CaretRight = R.drawable.ic_caret_right
     val CaretRightFilled = R.drawable.ic_caret_right_filled
     val CaretUp = R.drawable.ic_caret_up
+    val CaretUpDown = R.drawable.ic_caret_up_down
     val CaretUpFilled = R.drawable.ic_caret_up_filled
     val CarouselHorizontal = R.drawable.ic_carousel_horizontal
     val CarouselHorizontalFilled = R.drawable.ic_carousel_horizontal_filled
@@ -2514,6 +2518,7 @@ object TablerIcons {
     val HexagonNumber8 = R.drawable.ic_hexagon_number_8
     val HexagonNumber9 = R.drawable.ic_hexagon_number_9
     val HexagonOff = R.drawable.ic_hexagon_off
+    val HexagonPlus = R.drawable.ic_hexagon_plus
     val HexagonalPrism = R.drawable.ic_hexagonal_prism
     val HexagonalPrismOff = R.drawable.ic_hexagonal_prism_off
     val HexagonalPrismPlus = R.drawable.ic_hexagonal_prism_plus
@@ -2561,6 +2566,7 @@ object TablerIcons {
     val HomeStats = R.drawable.ic_home_stats
     val HomeUp = R.drawable.ic_home_up
     val HomeX = R.drawable.ic_home_x
+    val Horse = R.drawable.ic_horse
     val HorseToy = R.drawable.ic_horse_toy
     val HotelService = R.drawable.ic_hotel_service
     val Hourglass = R.drawable.ic_hourglass
@@ -2780,6 +2786,7 @@ object TablerIcons {
     val List = R.drawable.ic_list
     val ListCheck = R.drawable.ic_list_check
     val ListDetails = R.drawable.ic_list_details
+    val ListLetters = R.drawable.ic_list_letters
     val ListNumbers = R.drawable.ic_list_numbers
     val ListSearch = R.drawable.ic_list_search
     val ListTree = R.drawable.ic_list_tree
@@ -2911,6 +2918,7 @@ object TablerIcons {
     val MapOff = R.drawable.ic_map_off
     val MapPause = R.drawable.ic_map_pause
     val MapPin = R.drawable.ic_map_pin
+    val MapPin2 = R.drawable.ic_map_pin_2
     val MapPinBolt = R.drawable.ic_map_pin_bolt
     val MapPinCancel = R.drawable.ic_map_pin_cancel
     val MapPinCheck = R.drawable.ic_map_pin_check
@@ -3338,6 +3346,7 @@ object TablerIcons {
     val Pentagon = R.drawable.ic_pentagon
     val PentagonFilled = R.drawable.ic_pentagon_filled
     val PentagonOff = R.drawable.ic_pentagon_off
+    val PentagonPlus = R.drawable.ic_pentagon_plus
     val Pentagram = R.drawable.ic_pentagram
     val Pepper = R.drawable.ic_pepper
     val PepperOff = R.drawable.ic_pepper_off
@@ -3361,6 +3370,7 @@ object TablerIcons {
     val PhotoBolt = R.drawable.ic_photo_bolt
     val PhotoCancel = R.drawable.ic_photo_cancel
     val PhotoCheck = R.drawable.ic_photo_check
+    val PhotoCircle = R.drawable.ic_photo_circle
     val PhotoCode = R.drawable.ic_photo_code
     val PhotoCog = R.drawable.ic_photo_cog
     val PhotoDollar = R.drawable.ic_photo_dollar
@@ -3369,9 +3379,11 @@ object TablerIcons {
     val PhotoExclamation = R.drawable.ic_photo_exclamation
     val PhotoFilled = R.drawable.ic_photo_filled
     val PhotoHeart = R.drawable.ic_photo_heart
+    val PhotoHexagon = R.drawable.ic_photo_hexagon
     val PhotoMinus = R.drawable.ic_photo_minus
     val PhotoOff = R.drawable.ic_photo_off
     val PhotoPause = R.drawable.ic_photo_pause
+    val PhotoPentagon = R.drawable.ic_photo_pentagon
     val PhotoPin = R.drawable.ic_photo_pin
     val PhotoPlus = R.drawable.ic_photo_plus
     val PhotoQuestion = R.drawable.ic_photo_question
@@ -3381,6 +3393,7 @@ object TablerIcons {
     val PhotoSensor3 = R.drawable.ic_photo_sensor_3
     val PhotoShare = R.drawable.ic_photo_share
     val PhotoShield = R.drawable.ic_photo_shield
+    val PhotoSquareRounded = R.drawable.ic_photo_square_rounded
     val PhotoStar = R.drawable.ic_photo_star
     val PhotoUp = R.drawable.ic_photo_up
     val PhotoX = R.drawable.ic_photo_x
@@ -4377,15 +4390,19 @@ object TablerIcons {
     val UserEdit = R.drawable.ic_user_edit
     val UserExclamation = R.drawable.ic_user_exclamation
     val UserHeart = R.drawable.ic_user_heart
+    val UserHexagon = R.drawable.ic_user_hexagon
     val UserMinus = R.drawable.ic_user_minus
     val UserOff = R.drawable.ic_user_off
     val UserPause = R.drawable.ic_user_pause
+    val UserPentagon = R.drawable.ic_user_pentagon
     val UserPin = R.drawable.ic_user_pin
     val UserPlus = R.drawable.ic_user_plus
     val UserQuestion = R.drawable.ic_user_question
     val UserSearch = R.drawable.ic_user_search
     val UserShare = R.drawable.ic_user_share
     val UserShield = R.drawable.ic_user_shield
+    val UserSquare = R.drawable.ic_user_square
+    val UserSquareRounded = R.drawable.ic_user_square_rounded
     val UserStar = R.drawable.ic_user_star
     val UserUp = R.drawable.ic_user_up
     val UserX = R.drawable.ic_user_x
@@ -4440,6 +4457,7 @@ object TablerIcons {
     val Volume2 = R.drawable.ic_volume_2
     val Volume3 = R.drawable.ic_volume_3
     val VolumeOff = R.drawable.ic_volume_off
+    val Vs = R.drawable.ic_vs
     val Walk = R.drawable.ic_walk
     val Wall = R.drawable.ic_wall
     val WallOff = R.drawable.ic_wall_off
