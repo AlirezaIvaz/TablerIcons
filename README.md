@@ -4,7 +4,7 @@
 [![Apache2](http://img.shields.io/badge/License-APACHE2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![API 21](https://img.shields.io/badge/Min%20API-21-brightgreen)](https://developer.android.com/about/versions/lollipop)
 [![Kotlin 1.8.0](https://img.shields.io/badge/Kotlin-1.8.0-blueviolet)](https://kotlinlang.org)
-[![Tabler Icons 2.28.0](https://img.shields.io/badge/TablerIcons-2.28.0-blue)](https://github.com/tabler/tabler-icons)
+[![Tabler Icons 2.29.0](https://img.shields.io/badge/TablerIcons-2.29.0-blue)](https://github.com/tabler/tabler-icons)
 [![Issues](https://img.shields.io/github/issues/AlirezaIvaz/TablerIcons)](https://github.com/AlirezaIvaz/TablerIcons/issues)
 
 [TablerIcons](https://tabler-icons.io) ([Github](https://github.com/tabler/tabler-icons)) is a set
