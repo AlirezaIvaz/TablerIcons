@@ -964,8 +964,10 @@ object TablerIcons {
     val BrandWish = R.drawable.ic_brand_wish
     val BrandWix = R.drawable.ic_brand_wix
     val BrandWordpress = R.drawable.ic_brand_wordpress
+    val BrandX = R.drawable.ic_brand_x
     val BrandXamarin = R.drawable.ic_brand_xamarin
     val BrandXbox = R.drawable.ic_brand_xbox
+    val BrandXdeep = R.drawable.ic_brand_xdeep
     val BrandXing = R.drawable.ic_brand_xing
     val BrandYahoo = R.drawable.ic_brand_yahoo
     val BrandYandex = R.drawable.ic_brand_yandex
@@ -1828,6 +1830,7 @@ object TablerIcons {
     val DeviceMobileX = R.drawable.ic_device_mobile_x
     val DeviceNintendo = R.drawable.ic_device_nintendo
     val DeviceNintendoOff = R.drawable.ic_device_nintendo_off
+    val DeviceProjector = R.drawable.ic_device_projector
     val DeviceRemote = R.drawable.ic_device_remote
     val DeviceSdCard = R.drawable.ic_device_sd_card
     val DeviceSim = R.drawable.ic_device_sim
@@ -2004,6 +2007,7 @@ object TablerIcons {
     val DropletStar = R.drawable.ic_droplet_star
     val DropletUp = R.drawable.ic_droplet_up
     val DropletX = R.drawable.ic_droplet_x
+    val Droplets = R.drawable.ic_droplets
     val DualScreen = R.drawable.ic_dual_screen
     val EPassport = R.drawable.ic_e_passport
     val Ear = R.drawable.ic_ear
@@ -2332,6 +2336,7 @@ object TablerIcons {
     val Ghost = R.drawable.ic_ghost
     val Ghost2 = R.drawable.ic_ghost_2
     val Ghost2Filled = R.drawable.ic_ghost_2_filled
+    val Ghost3 = R.drawable.ic_ghost_3
     val GhostFilled = R.drawable.ic_ghost_filled
     val GhostOff = R.drawable.ic_ghost_off
     val Gif = R.drawable.ic_gif
@@ -2657,6 +2662,7 @@ object TablerIcons {
     val Keyframes = R.drawable.ic_keyframes
     val Ladder = R.drawable.ic_ladder
     val LadderOff = R.drawable.ic_ladder_off
+    val Ladle = R.drawable.ic_ladle
     val Lambda = R.drawable.ic_lambda
     val Lamp = R.drawable.ic_lamp
     val Lamp2 = R.drawable.ic_lamp_2
@@ -3567,6 +3573,7 @@ object TablerIcons {
     val RelationOneToMany = R.drawable.ic_relation_one_to_many
     val RelationOneToOne = R.drawable.ic_relation_one_to_one
     val Reload = R.drawable.ic_reload
+    val Reorder = R.drawable.ic_reorder
     val Repeat = R.drawable.ic_repeat
     val RepeatOff = R.drawable.ic_repeat_off
     val RepeatOnce = R.drawable.ic_repeat_once
@@ -3785,6 +3792,14 @@ object TablerIcons {
     val Shoe = R.drawable.ic_shoe
     val ShoeOff = R.drawable.ic_shoe_off
     val ShoppingBag = R.drawable.ic_shopping_bag
+    val ShoppingBagCheck = R.drawable.ic_shopping_bag_check
+    val ShoppingBagDiscount = R.drawable.ic_shopping_bag_discount
+    val ShoppingBagEdit = R.drawable.ic_shopping_bag_edit
+    val ShoppingBagExclamation = R.drawable.ic_shopping_bag_exclamation
+    val ShoppingBagMinus = R.drawable.ic_shopping_bag_minus
+    val ShoppingBagPlus = R.drawable.ic_shopping_bag_plus
+    val ShoppingBagSearch = R.drawable.ic_shopping_bag_search
+    val ShoppingBagX = R.drawable.ic_shopping_bag_x
     val ShoppingCart = R.drawable.ic_shopping_cart
     val ShoppingCartDiscount = R.drawable.ic_shopping_cart_discount
     val ShoppingCartOff = R.drawable.ic_shopping_cart_off
@@ -4261,8 +4276,10 @@ object TablerIcons {
     val TrafficLights = R.drawable.ic_traffic_lights
     val TrafficLightsOff = R.drawable.ic_traffic_lights_off
     val Train = R.drawable.ic_train
+    val Transfer = R.drawable.ic_transfer
     val TransferIn = R.drawable.ic_transfer_in
     val TransferOut = R.drawable.ic_transfer_out
+    val TransferVertical = R.drawable.ic_transfer_vertical
     val Transform = R.drawable.ic_transform
     val TransformFilled = R.drawable.ic_transform_filled
     val TransitionBottom = R.drawable.ic_transition_bottom
@@ -4496,6 +4513,7 @@ object TablerIcons {
     val XboxX = R.drawable.ic_xbox_x
     val XboxY = R.drawable.ic_xbox_y
     val Xd = R.drawable.ic_xd
+    val Xxx = R.drawable.ic_xxx
     val YinYang = R.drawable.ic_yin_yang
     val YinYangFilled = R.drawable.ic_yin_yang_filled
     val Yoga = R.drawable.ic_yoga
