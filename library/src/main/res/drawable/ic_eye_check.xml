@@ -1,7 +1,6 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:autoMirrored="true"
     android:viewportWidth="24"
     android:viewportHeight="24">
     <path
@@ -11,7 +10,7 @@
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M11.143,17.961c-3.221,-0.295 -5.936,-2.281 -8.143,-5.961c2.4,-4 5.4,-6 9,-6c3.6,0 6.6,2 9,6c-0.222,0.37 -0.449,0.722 -0.68,1.057"
+        android:pathData="M11.102,17.957c-3.204,-0.307 -5.904,-2.294 -8.102,-5.957c2.4,-4 5.4,-6 9,-6c3.6,0 6.6,2 9,6a19.5,19.5 0,0 1,-0.663 1.032"
         android:strokeWidth="2"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"

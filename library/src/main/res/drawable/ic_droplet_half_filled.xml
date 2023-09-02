@@ -5,9 +5,9 @@
     android:viewportWidth="24"
     android:viewportHeight="24">
     <path
-        android:pathData="M6.8,11a6,6 0,1 0,10.396 0l-5.197,-8l-5.2,8zM12,3v17m0,-8l3.544,-3.544m-3.544,8.844l5.558,-5.558"
-        android:strokeWidth="2"
-        android:strokeColor="@color/tabler_icon"
+        android:fillColor="@color/tabler_icon"
+        android:pathData="M12,2l0.07,0.003a2.41,2.41 0,0 1,1.825 0.907l0.108,0.148l4.92,7.306c1.952,3.267 1.191,7.42 -1.796,9.836c-2.968,2.402 -7.285,2.402 -10.254,0c-2.917,-2.36 -3.711,-6.376 -1.901,-9.65l0.134,-0.232l4.893,-7.26c0.185,-0.275 0.426,-0.509 0.709,-0.686a2.426,2.426 0,0 1,1.066 -0.36l0.226,-0.012zM11,5.149l-4.206,6.24c-1.44,2.41 -0.88,5.463 1.337,7.257a6.101,6.101 0,0 0,2.869 1.276v-14.773z"
+        android:strokeWidth="0"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
 </vector>
