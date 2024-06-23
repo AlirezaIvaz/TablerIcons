@@ -5,15 +5,15 @@
     android:viewportHeight="24">
     <path
         android:pathData="M16.5,5a4.5,4.5 0,1 1,-0.653 8.953l-4.347,3.009l0,0.038a3,3 0,0 1,-2.824 3l-0.176,0a3,3 0,0 1,-2.94 -2.402l-2.56,-1.098v-3.5l3.51,1.755a2.989,2.989 0,0 1,2.834 -0.635l2.727,-3.818a4.5,4.5 0,0 1,4.429 -5.302z"
-        android:strokeWidth="2"
+        android:strokeLineJoin="round"
+        android:strokeWidth="@integer/tabler_icon_stroke"
         android:strokeColor="@color/tabler_icon"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round" />
+        android:strokeLineCap="round" />
     <path
-        android:fillColor="@color/tabler_icon"
         android:pathData="M16.5,9.5m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0"
-        android:strokeWidth="2"
+        android:strokeLineJoin="round"
+        android:strokeWidth="@integer/tabler_icon_stroke"
+        android:fillColor="@color/tabler_icon"
         android:strokeColor="@color/tabler_icon"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round" />
+        android:strokeLineCap="round" />
 </vector>

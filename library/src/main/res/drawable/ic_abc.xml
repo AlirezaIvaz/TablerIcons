@@ -5,25 +5,25 @@
     android:viewportHeight="24">
     <path
         android:pathData="M3,16v-6a2,2 0,1 1,4 0v6"
-        android:strokeWidth="2"
+        android:strokeWidth="@integer/tabler_icon_stroke"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
         android:pathData="M3,13h4"
-        android:strokeWidth="2"
+        android:strokeWidth="@integer/tabler_icon_stroke"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
         android:pathData="M10,8v6a2,2 0,1 0,4 0v-1a2,2 0,1 0,-4 0v1"
-        android:strokeWidth="2"
+        android:strokeWidth="@integer/tabler_icon_stroke"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
         android:pathData="M20.732,12a2,2 0,0 0,-3.732 1v1a2,2 0,0 0,3.726 1.01"
-        android:strokeWidth="2"
+        android:strokeWidth="@integer/tabler_icon_stroke"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />

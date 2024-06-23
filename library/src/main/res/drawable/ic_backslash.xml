@@ -5,7 +5,7 @@
     android:viewportHeight="24">
     <path
         android:pathData="M7,5l10,14"
-        android:strokeWidth="2"
+        android:strokeWidth="@integer/tabler_icon_stroke"
         android:strokeColor="@color/tabler_icon"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />

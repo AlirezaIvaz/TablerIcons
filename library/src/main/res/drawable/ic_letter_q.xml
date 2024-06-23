@@ -5,14 +5,14 @@
     android:viewportHeight="24">
     <path
         android:pathData="M18,9a5,5 0,0 0,-5 -5h-2a5,5 0,0 0,-5 5v6a5,5 0,0 0,5 5h2a5,5 0,0 0,5 -5v-6"
-        android:strokeWidth="2"
+        android:strokeLineJoin="round"
+        android:strokeWidth="@integer/tabler_icon_stroke"
         android:strokeColor="@color/tabler_icon"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round" />
+        android:strokeLineCap="round" />
     <path
         android:pathData="M13,15l5,5"
-        android:strokeWidth="2"
+        android:strokeLineJoin="round"
+        android:strokeWidth="@integer/tabler_icon_stroke"
         android:strokeColor="@color/tabler_icon"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round" />
+        android:strokeLineCap="round" />
 </vector>
