@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import ir.alirezaivaz.tablericons.demo.databinding.ItemIconBinding
 
 class RecyclerAdapter(
-    private val items: List<IconItem>,
+    private var items: List<IconItem>,
     private val fragmentManager: FragmentManager,
 ) : RecyclerView.Adapter<RecyclerAdapter.DrawableViewHolder>() {
 
@@ -37,4 +37,9 @@ class RecyclerAdapter(
     }
 
     override fun getItemCount() = items.size
+
+    fun filterList(filteredList: List<IconItem>) {
+        items = filteredList
+        notifyDataSetChanged()
+    }
 }

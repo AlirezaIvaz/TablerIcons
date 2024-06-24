@@ -2,8 +2,10 @@
     <string name="app_name">Tabler Icons</string>
     <string name="action_copy">Copy</string>
     <string name="action_close">Close</string>
+    <string name="action_search">Search</string>
     <string name="action_share">Share</string>
-    <string name="action_share_via">Share via...</string>
+    <string name="action_share_via">Share via…</string>
     <string name="message_copy_success">Text copied to clipboard.</string>
     <string name="message_share_failed">No apps can perform this action!</string>
+    <string name="message_no_data">No data found!</string>
 </resources>
