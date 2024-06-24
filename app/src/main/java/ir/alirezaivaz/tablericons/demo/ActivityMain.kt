@@ -1,10 +1,12 @@
 package ir.alirezaivaz.tablericons.demo
 
+import android.os.Build
 import android.os.Bundle
 import android.view.Menu
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.material.color.DynamicColors
 import com.google.android.material.snackbar.Snackbar
 import ir.alirezaivaz.tablericons.TablerIcons
 import ir.alirezaivaz.tablericons.demo.databinding.ActivityMainBinding
@@ -17,6 +19,9 @@ class ActivityMain : AppCompatActivity() {
     private lateinit var adapter: RecyclerAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            DynamicColors.applyToActivityIfAvailable(this)
+        }
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
