@@ -26,7 +26,7 @@ class ActivityMain : AppCompatActivity() {
             }
         }
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
-        val recyclerAdapter = RecyclerAdapter(iconItems)
+        val recyclerAdapter = RecyclerAdapter(iconItems, supportFragmentManager)
         binding.recyclerView.adapter = recyclerAdapter
     }
 }

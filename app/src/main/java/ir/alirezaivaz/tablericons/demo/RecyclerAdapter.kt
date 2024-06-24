@@ -2,11 +2,13 @@ package ir.alirezaivaz.tablericons.demo
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.RecyclerView
 import ir.alirezaivaz.tablericons.demo.databinding.ItemIconBinding
 
 class RecyclerAdapter(
-    private val items: List<IconItem>
+    private val items: List<IconItem>,
+    private val fragmentManager: FragmentManager,
 ) : RecyclerView.Adapter<RecyclerAdapter.DrawableViewHolder>() {
 
     inner class DrawableViewHolder(
@@ -25,8 +27,12 @@ class RecyclerAdapter(
     override fun onBindViewHolder(holder: DrawableViewHolder, position: Int) {
         val item = items[position]
         with(holder.binding) {
-            imageView.setImageResource(item.drawableRes)
-            textView.text = item.name
+            root.setOnClickListener {
+                val iconBottomSheet = IconBottomSheet(item)
+                iconBottomSheet.show(fragmentManager, IconBottomSheet.TAG)
+            }
+            icon.setImageResource(item.drawableRes)
+            name.text = item.name
         }
     }
 
