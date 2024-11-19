@@ -3,6 +3,9 @@ plugins {
     kotlin("android")
 }
 
+val githubUrl = "https://github.com/AlirezaIvaz/TablerIcons"
+val issuesUrl = "$githubUrl/issues"
+
 android {
     namespace = "ir.alirezaivaz.tablericons.demo"
     compileSdk = 34
@@ -12,7 +15,9 @@ android {
         minSdk = 21
         targetSdk = 34
         versionCode = 1
-        versionName = "0.0.1"
+        versionName = "1.0.0"
+        buildConfigField("String", "GITHUB_REPO_URL", "\"$githubUrl\"")
+        buildConfigField("String", "GITHUB_ISSUES_URL", "\"$issuesUrl\"")
     }
 
     buildTypes {
@@ -24,6 +29,26 @@ android {
             )
         }
     }
+    flavorDimensions += "distributor"
+    productFlavors {
+        create("github") {
+            versionNameSuffix = "-GH"
+            buildConfigField("String", "RATE_INTENT", "\"\"")
+            buildConfigField("String", "APPS_INTENT", "\"\"")
+        }
+        create("cafebazaar") {
+            dimension = "distributor"
+            versionNameSuffix = "-CB"
+            buildConfigField("String", "RATE_INTENT", "\"bazaar://details?id=${defaultConfig.applicationId}\"")
+            buildConfigField("String", "APPS_INTENT", "\"bazaar://collection?slug=by_author&aid=alirezaivaz\"")
+        }
+        create("myket") {
+            dimension = "distributor"
+            versionNameSuffix = "-MK"
+            buildConfigField("String", "RATE_INTENT", "\"myket://comment?id=${defaultConfig.applicationId}\"")
+            buildConfigField("String", "APPS_INTENT", "\"myket://developer/${defaultConfig.applicationId}\"")
+        }
+    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
@@ -32,6 +57,7 @@ android {
         jvmTarget = "17"
     }
     buildFeatures {
+        buildConfig = true
         viewBinding = true
     }
 }

@@ -5,7 +5,11 @@
     <string name="action_search">Search</string>
     <string name="action_share">Share</string>
     <string name="action_share_via">Share via…</string>
+    <string name="action_rate">Rate</string>
+    <string name="action_apps">More apps</string>
+    <string name="action_github_repo">Github repository</string>
+    <string name="action_github_issues">Github issues</string>
     <string name="message_copy_success">Text copied to clipboard.</string>
-    <string name="message_share_failed">No apps can perform this action!</string>
+    <string name="message_share_failed">No apps can perform this action!</string> <!-- TODO: Rename to a clear name -->
     <string name="message_no_data">No data found!</string>
 </resources>
