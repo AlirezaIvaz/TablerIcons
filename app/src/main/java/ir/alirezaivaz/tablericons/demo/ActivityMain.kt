@@ -6,19 +6,20 @@ import android.os.Build
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
+import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.color.DynamicColors
 import com.google.android.material.snackbar.Snackbar
-import ir.alirezaivaz.tablericons.TablerIcons
 import ir.alirezaivaz.tablericons.demo.databinding.ActivityMainBinding
 
 class ActivityMain : AppCompatActivity() {
     private val binding by lazy {
         ActivityMainBinding.inflate(layoutInflater)
     }
-    private val iconItems = mutableListOf<IconItem>()
+    private val viewmodel: MainViewModel by viewModels()
     private lateinit var adapter: RecyclerAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,18 +29,17 @@ class ActivityMain : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
-        TablerIcons::class.java.declaredFields.forEach { field ->
-            if (field.type == Int::class.javaPrimitiveType) {
-                field.isAccessible = true
-                val name = field.name
-                val drawableRes = field.getInt(null)
-                val drawableName = resources.getResourceEntryName(drawableRes)
-                iconItems.add(IconItem(name, drawableRes, drawableName))
-            }
-        }
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
-        adapter = RecyclerAdapter(iconItems, supportFragmentManager)
-        binding.recyclerView.adapter = adapter
+        viewmodel.initialize(resources)
+        viewmodel.state.observe(this) {
+            binding.errorLayout.isVisible = it == HomeState.NOTHING_FOUND
+            binding.recyclerView.isVisible = it == HomeState.LOADED
+            binding.progressIndicator.isVisible = it == HomeState.LOADING
+        }
+        viewmodel.allItems.observe(this) {
+            adapter = RecyclerAdapter(it, supportFragmentManager)
+            binding.recyclerView.adapter = adapter
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -59,7 +59,8 @@ class ActivityMain : AppCompatActivity() {
             }
 
             override fun onQueryTextChange(newText: String?): Boolean {
-                newText?.let { filter(it) }
+                viewmodel.updateState(HomeState.LOADING)
+                newText?.let { filter(it) } ?: { viewmodel.updateState(HomeState.NOTHING_FOUND) }
                 return false
             }
         })
@@ -67,10 +68,12 @@ class ActivityMain : AppCompatActivity() {
     }
 
     private fun filter(text: String) {
-        val filteredList = iconItems.filter { it.name.lowercase().contains(text.lowercase()) }
+        val items = viewmodel.allItems.value ?: emptyList()
+        val filteredList = items.filter { it.name.lowercase().contains(text.lowercase()) }
         if (filteredList.isEmpty()) {
-            Snackbar.make(binding.root, R.string.message_no_data, Snackbar.LENGTH_SHORT).show()
+            viewmodel.updateState(HomeState.NOTHING_FOUND)
         } else {
+            viewmodel.updateState(HomeState.LOADED)
             adapter.filterList(filteredList)
         }
     }

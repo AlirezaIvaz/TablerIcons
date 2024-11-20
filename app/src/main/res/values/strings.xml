@@ -11,5 +11,5 @@
     <string name="action_github_issues">Github issues</string>
     <string name="message_copy_success">Text copied to clipboard.</string>
     <string name="message_share_failed">No apps can perform this action!</string> <!-- TODO: Rename to a clear name -->
-    <string name="message_no_data">No data found!</string>
+    <string name="error_nothing_found">Nothing found!</string>
 </resources>
