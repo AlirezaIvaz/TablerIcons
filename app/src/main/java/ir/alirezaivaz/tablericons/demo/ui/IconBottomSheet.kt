@@ -1,4 +1,4 @@
-package ir.alirezaivaz.tablericons.demo
+package ir.alirezaivaz.tablericons.demo.ui
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -10,7 +10,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.snackbar.Snackbar
+import ir.alirezaivaz.tablericons.demo.R
 import ir.alirezaivaz.tablericons.demo.databinding.SheetIconBinding
+import ir.alirezaivaz.tablericons.demo.dto.IconItem
 
 class IconBottomSheet(
     private val icon: IconItem

@@ -1,4 +1,4 @@
-package ir.alirezaivaz.tablericons.demo
+package ir.alirezaivaz.tablericons.demo.ui
 
 import android.content.Intent
 import android.net.Uri
@@ -13,7 +13,12 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.color.DynamicColors
 import com.google.android.material.snackbar.Snackbar
+import ir.alirezaivaz.tablericons.demo.BuildConfig
+import ir.alirezaivaz.tablericons.demo.R
+import ir.alirezaivaz.tablericons.demo.adapter.RecyclerAdapter
 import ir.alirezaivaz.tablericons.demo.databinding.ActivityMainBinding
+import ir.alirezaivaz.tablericons.demo.dto.HomeState
+import ir.alirezaivaz.tablericons.demo.viewmodel.MainViewModel
 
 class ActivityMain : AppCompatActivity() {
     private val binding by lazy {

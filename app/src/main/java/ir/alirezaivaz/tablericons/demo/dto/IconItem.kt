@@ -1,4 +1,4 @@
-package ir.alirezaivaz.tablericons.demo
+package ir.alirezaivaz.tablericons.demo.dto
 
 data class IconItem(
     val name: String,

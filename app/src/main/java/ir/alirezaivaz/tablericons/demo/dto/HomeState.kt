@@ -1,4 +1,4 @@
-package ir.alirezaivaz.tablericons.demo
+package ir.alirezaivaz.tablericons.demo.dto
 
 enum class HomeState {
     LOADING,

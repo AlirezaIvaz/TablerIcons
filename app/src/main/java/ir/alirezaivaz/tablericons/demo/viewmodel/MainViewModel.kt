@@ -1,4 +1,4 @@
-package ir.alirezaivaz.tablericons.demo
+package ir.alirezaivaz.tablericons.demo.viewmodel
 
 import android.content.res.Resources
 import androidx.lifecycle.LiveData
@@ -6,6 +6,8 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import ir.alirezaivaz.tablericons.TablerIcons
+import ir.alirezaivaz.tablericons.demo.dto.HomeState
+import ir.alirezaivaz.tablericons.demo.dto.IconItem
 import kotlinx.coroutines.launch
 
 class MainViewModel: ViewModel() {

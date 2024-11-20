@@ -1,10 +1,12 @@
-package ir.alirezaivaz.tablericons.demo
+package ir.alirezaivaz.tablericons.demo.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.RecyclerView
+import ir.alirezaivaz.tablericons.demo.ui.IconBottomSheet
 import ir.alirezaivaz.tablericons.demo.databinding.ItemIconBinding
+import ir.alirezaivaz.tablericons.demo.dto.IconItem
 
 class RecyclerAdapter(
     private var items: List<IconItem>,
