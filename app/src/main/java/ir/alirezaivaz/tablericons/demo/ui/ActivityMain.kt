@@ -1,7 +1,6 @@
 package ir.alirezaivaz.tablericons.demo.ui
 
 import android.content.Intent
-import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.view.Menu
@@ -13,15 +12,16 @@ import androidx.appcompat.widget.SearchView
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.color.DynamicColors
-import com.google.android.material.snackbar.Snackbar
 import ir.alirezaivaz.tablericons.demo.BuildConfig
 import ir.alirezaivaz.tablericons.demo.R
 import ir.alirezaivaz.tablericons.demo.adapter.RecyclerAdapter
 import ir.alirezaivaz.tablericons.demo.databinding.ActivityMainBinding
 import ir.alirezaivaz.tablericons.demo.dto.HomeState
+import ir.alirezaivaz.tablericons.demo.utils.Utils
 import ir.alirezaivaz.tablericons.demo.viewmodel.MainViewModel
 
 class ActivityMain : AppCompatActivity() {
+    private val activityMain = this@ActivityMain
     private val binding by lazy {
         ActivityMainBinding.inflate(layoutInflater)
     }
@@ -88,61 +88,41 @@ class ActivityMain : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_rate -> {
-                try {
-                    val intentAction = if (BuildConfig.FLAVOR == "cafebazaar")
-                        Intent.ACTION_EDIT
-                    else
-                        Intent.ACTION_VIEW
-                    val intent = Intent(intentAction, Uri.parse(BuildConfig.RATE_INTENT))
-                    startActivity(intent)
-                } catch (e: Exception) {
-                    Snackbar.make(
-                        binding.root,
-                        R.string.message_share_failed,
-                        Snackbar.LENGTH_SHORT
-                    ).show()
+                val action = if (BuildConfig.FLAVOR == "cafebazaar") {
+                    Intent.ACTION_EDIT
+                } else {
+                    Intent.ACTION_VIEW
                 }
+                Utils.launchMarketIntent(
+                    context = activityMain,
+                    view = binding.root,
+                    url = BuildConfig.RATE_INTENT,
+                    action = action
+                )
             }
 
             R.id.action_apps -> {
-                try {
-                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(BuildConfig.APPS_INTENT))
-                    startActivity(intent)
-                } catch (e: Exception) {
-                    Snackbar.make(
-                        binding.root,
-                        R.string.message_share_failed,
-                        Snackbar.LENGTH_SHORT
-                    ).show()
-                }
+                Utils.launchMarketIntent(
+                    context = activityMain,
+                    view = binding.root,
+                    url = BuildConfig.APPS_INTENT,
+                )
             }
 
             R.id.action_repo -> {
-                try {
-                    // TODO: Use Androidx browser
-                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(BuildConfig.GITHUB_REPO_URL))
-                    startActivity(intent)
-                } catch (e: Exception) {
-                    Snackbar.make(
-                        binding.root,
-                        R.string.message_share_failed,
-                        Snackbar.LENGTH_SHORT
-                    ).show()
-                }
+                Utils.launchWebpage(
+                    context = activityMain,
+                    view = binding.root,
+                    url = BuildConfig.GITHUB_REPO_URL
+                )
             }
 
             R.id.action_issues -> {
-                try {
-                    // TODO: Use Androidx browser
-                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(BuildConfig.GITHUB_ISSUES_URL))
-                    startActivity(intent)
-                } catch (e: Exception) {
-                    Snackbar.make(
-                        binding.root,
-                        R.string.message_share_failed,
-                        Snackbar.LENGTH_SHORT
-                    ).show()
-                }
+                Utils.launchWebpage(
+                    context = activityMain,
+                    view = binding.root,
+                    url = BuildConfig.GITHUB_ISSUES_URL
+                )
             }
         }
         return true
