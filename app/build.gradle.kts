@@ -8,12 +8,12 @@ val issuesUrl = "$githubUrl/issues"
 
 android {
     namespace = "ir.alirezaivaz.tablericons.demo"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "ir.alirezaivaz.tablericons.demo"
         minSdk = 21
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0.0"
         buildConfigField("String", "GITHUB_REPO_URL", "\"$githubUrl\"")
