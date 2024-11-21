@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">آیکون‌های Tabler</string>
+    <string name="action_copy">رونویسی</string>
+    <string name="action_close">بستن</string>
+    <string name="action_search">جستجو</string>
+    <string name="action_share">هم‌رسانی</string>
+    <string name="action_share_via">هم‌رسانی با…</string>
+    <string name="action_rate">امتیاز</string>
+    <string name="action_apps">برنامه‌های بیشتر</string>
+    <string name="action_github">گیت‌هاب</string>
+    <string name="action_issues">مشکلات</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="settings_dynamic_colors">رنگ‌بندی پویا</string>
+    <string name="settings_theme">پوسته</string>
+    <string name="settings_theme_day">روز</string>
+    <string name="settings_theme_night">شب</string>
+    <string name="settings_theme_system">سامانه</string>
+    <string name="settings_theme_battery">باتری</string>
+    <string name="settings_language">زبان</string>
+    <string name="about_library_version">کتابخانه آیکون‌های Tabler نسخهٔ %1$s</string>
+    <string name="about_library_base_version">براساس آیکون‌های Tabler نسخهٔ %1$s</string>
+    <string name="message_copy_success">متن در کلیپ‌بورد رونویسی شد.</string>
+    <string name="message_share_failed">هیچ برنامه‌ای نمی‌تواند این کار را انجام دهد!</string>
+    <string name="error_nothing_found">چیزی یافت نشد!</string>
+</resources>

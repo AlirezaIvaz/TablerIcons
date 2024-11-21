@@ -90,6 +90,53 @@
 
         </HorizontalScrollView>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_horizontal"
+            android:text="@string/settings_language"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium" />
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/language_toggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/margin_spacing"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/margin_horizontal"
+            app:checkedButton="@id/language_en"
+            app:selectionRequired="true"
+            app:singleSelection="true">
+
+            <Button
+                android:id="@+id/language_en"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:fontFamily="@font/open_sans"
+                android:text="@string/settings_language_en" />
+
+            <Button
+                android:id="@+id/language_fa"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:fontFamily="@font/vazirmatn"
+                android:text="@string/settings_language_fa" />
+
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_spacing" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_vertical" />
+
         <Space
             android:layout_width="match_parent"
             android:layout_height="@dimen/margin_vertical" />

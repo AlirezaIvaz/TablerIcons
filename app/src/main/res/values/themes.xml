@@ -46,5 +46,18 @@
         <item name="colorSurfaceContainer">@color/md_theme_surfaceContainer</item>
         <item name="colorSurfaceContainerHigh">@color/md_theme_surfaceContainerHigh</item>
         <item name="colorSurfaceContainerHighest">@color/md_theme_surfaceContainerHighest</item>
+        <item name="fontFamily">@font/font_family</item>
+        <item name="android:fontFamily">@font/font_family</item>
     </style>
+
+    <style name="TextAppearance.PasswordGenerator.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/font_family</item>
+        <item name="android:fontFamily">@font/font_family</item>
+    </style>
+
+    <style name="TextAppearance.PasswordGenerator.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/font_family</item>
+        <item name="android:fontFamily">@font/font_family</item>
+    </style>
+
 </resources>

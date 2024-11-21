@@ -35,6 +35,7 @@ class SettingsBottomSheet : BottomSheetDialogFragment() {
         super.onViewCreated(view, savedInstanceState)
         initDynamicColorsSwitch()
         initThemeToggle()
+        initLanguageToggle()
         initButtons()
         binding.aboutLibraryVersion.text = String.format(
             getString(R.string.about_library_version),
@@ -88,6 +89,27 @@ class SettingsBottomSheet : BottomSheetDialogFragment() {
             }
             dismiss()
             requireActivity().recreate()
+        }
+    }
+
+    private fun initLanguageToggle() {
+        binding.languageToggle.check(
+            when (prefs.getLanguage()) {
+                "fa-IR" -> R.id.language_fa
+                else -> R.id.language_en
+            }
+        )
+        binding.languageToggle.addOnButtonCheckedListener { toggleButton, checkedId, isChecked ->
+            val languageTag = when (toggleButton.checkedButtonId) {
+                R.id.language_fa -> {
+                    "fa-IR"
+                }
+
+                else -> {
+                    "en-US"
+                }
+            }
+            prefs.setLanguage(languageTag)
         }
     }
 

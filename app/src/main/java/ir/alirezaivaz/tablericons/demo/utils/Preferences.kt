@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.os.Build
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.os.LocaleListCompat
 import androidx.preference.PreferenceManager
 
 class Preferences(context: Context) {
@@ -42,6 +43,15 @@ class Preferences(context: Context) {
 
     fun setTheme(value: Int) {
         put(PREF_THEME, value)
+    }
+
+    fun getLanguage(): String {
+        return AppCompatDelegate.getApplicationLocales()[0]?.toLanguageTag() ?: PREF_LANGUAGE_DEFAULT
+    }
+
+    fun setLanguage(value: String) {
+        val localeList = LocaleListCompat.forLanguageTags(value)
+        AppCompatDelegate.setApplicationLocales(localeList)
     }
 
     fun get(key: String, defValue: Int): Int {
@@ -89,6 +99,7 @@ class Preferences(context: Context) {
         private const val PREF_DYNAMIC_COLORS = "pref_dynamic_colors"
         private const val PREF_DYNAMIC_COLORS_DEFAULT = true
         private const val PREF_THEME = "pref_theme"
+        private const val PREF_LANGUAGE_DEFAULT = "en-US"
 
         fun getInstance(context: Context): Preferences {
             if (instance == null) {

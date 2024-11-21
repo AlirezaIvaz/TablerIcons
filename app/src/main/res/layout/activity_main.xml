@@ -18,6 +18,8 @@
             android:layout_width="match_parent"
             android:layout_height="?collapsingToolbarLayoutLargeSize"
             android:fitsSystemWindows="true"
+            app:collapsedTitleTextAppearance="@style/TextAppearance.PasswordGenerator.TitleLarge"
+            app:expandedTitleTextAppearance="@style/TextAppearance.PasswordGenerator.HeadlineMedium"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
             app:title="@string/app_name">
 
