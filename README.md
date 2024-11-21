@@ -3,8 +3,8 @@
 [![JitPack](https://jitpack.io/v/ir.alirezaivaz/tablericons.svg)](https://jitpack.io/#ir.alirezaivaz/tablericons)
 [![Apache2](http://img.shields.io/badge/License-APACHE2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![API 21](https://img.shields.io/badge/Min%20API-21-brightgreen)](https://developer.android.com/about/versions/lollipop)
-[![Kotlin 1.8.0](https://img.shields.io/badge/Kotlin-1.8.0-blueviolet)](https://kotlinlang.org)
-[![Tabler Icons 2.35.0](https://img.shields.io/badge/TablerIcons-2.35.0-blue)](https://github.com/tabler/tabler-icons)
+[![Kotlin 1.9.24](https://img.shields.io/badge/Kotlin-1.9.24-blueviolet)](https://kotlinlang.org)
+[![Tabler Icons 3.6.0](https://img.shields.io/badge/TablerIcons-3.6.0-blue)](https://github.com/tabler/tabler-icons)
 [![Issues](https://img.shields.io/github/issues/AlirezaIvaz/TablerIcons)](https://github.com/AlirezaIvaz/TablerIcons/issues)
 
 [TablerIcons](https://tabler-icons.io) ([Github](https://github.com/tabler/tabler-icons)) is a set
@@ -95,7 +95,7 @@ First add dependency in your project version catalog like this:
     
 ```toml
 [version]
-tablericons = "1.12.0" # You can find the latest version from releases page
+tablericons = "1.13.0" # You can find the latest version from releases page
 
 [libraries]
 tablericons = { group = "ir.alirezaivaz", name = "tablericons", version.ref = "tablericons" }
@@ -139,7 +139,7 @@ Just add the library dependency in your application module `build.gradle` or `bu
 ```groovy
 dependencies {
     ...
-    def tablerIconsVersion = "1.12.0" // You can find the latest version from releases page
+    def tablerIconsVersion = "1.13.0" // You can find the latest version from releases page
     implementation "ir.alirezaivaz:tablericons:$tablerIconsVersion"
 }
 ```
@@ -152,7 +152,7 @@ dependencies {
 ```kotlin
 dependencies {
     ...
-    val tablerIconsVersion = "1.12.0" // You can find the latest version from releases page
+    val tablerIconsVersion = "1.13.0" // You can find the latest version from releases page
     implementation("ir.alirezaivaz:tablericons:$tablerIconsVersion")
 }
 ```
