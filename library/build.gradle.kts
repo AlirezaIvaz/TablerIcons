@@ -4,6 +4,11 @@ plugins {
     kotlin("android")
 }
 
+val libraryGroupId = "ir.alirezaivaz"
+val libraryArtifactId = "tablericons"
+val libraryVersion = "1.13.0"
+val tablerIconsVersion = "3.6.0"
+
 android {
     namespace = "ir.alirezaivaz.tablericons"
     compileSdk = 35
@@ -11,6 +16,8 @@ android {
     defaultConfig {
         minSdk = 21
         consumerProguardFiles("consumer-rules.pro")
+        buildConfigField("String", "LIBRARY_VERSION", "\"$libraryVersion\"")
+        buildConfigField("String", "TABLER_ICONS_VERSION", "\"$tablerIconsVersion\"")
     }
 
     buildTypes {
@@ -21,6 +28,9 @@ android {
                 "proguard-rules.pro"
             )
         }
+    }
+    buildFeatures {
+        buildConfig = true
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_21
@@ -78,9 +88,9 @@ fun String.toCamelCase(): String {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "ir.alirezaivaz"
-            artifactId = "tablericons"
-            version = "1.12.0"
+            groupId = libraryGroupId
+            artifactId = libraryArtifactId
+            version = libraryVersion
             afterEvaluate {
                 from(components["release"])
             }

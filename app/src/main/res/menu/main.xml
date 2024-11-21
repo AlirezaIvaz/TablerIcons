@@ -8,26 +8,8 @@
         app:actionViewClass="androidx.appcompat.widget.SearchView"
         app:showAsAction="ifRoom|collapseActionView" />
     <item
-        android:id="@+id/action_rate"
-        android:icon="@drawable/ic_message"
-        android:title="@string/action_rate"
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/action_settings"
         app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/action_apps"
-        android:icon="@drawable/ic_apps"
-        android:title="@string/action_apps"
-        app:showAsAction="ifRoom" />
-
-    <item
-        android:id="@+id/action_repo"
-        android:icon="@drawable/ic_brand_github"
-        android:title="@string/action_github_repo"
-        app:showAsAction="ifRoom" />
-
-    <item
-        android:id="@+id/action_issues"
-        android:icon="@drawable/ic_bug"
-        android:title="@string/action_github_issues"
-        app:showAsAction="ifRoom" />
-
 </menu>

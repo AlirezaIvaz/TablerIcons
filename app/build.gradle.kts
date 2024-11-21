@@ -69,5 +69,6 @@ dependencies {
     implementation("androidx.activity:activity-ktx:1.9.3")
     implementation("androidx.browser:browser:1.8.0")
     implementation("androidx.constraintlayout:constraintlayout:2.2.0")
+    implementation("androidx.preference:preference-ktx:1.2.1")
     implementation("com.google.android.material:material:1.12.0")
 }
