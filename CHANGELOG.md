@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.13.0
+* Sync with **Tabler Icons 3.6.0**
+* Added ability to change icons stroke
+
 ## 1.12.0
 * Sync with **Tabler Icons 2.35.0**
 * Added 57 new icons
