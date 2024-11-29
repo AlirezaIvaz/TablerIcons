@@ -14,6 +14,12 @@ icons for you to use in your projects.
 This library offers you the vector drawable version of these icons with some additional features
 that you can easily use in your Android projects.
 
+## Demo
+
+<a href='https://github.com/AlirezaIvaz/TablerIcons/releases/'><img height=70 alt='Get it on GitHub' src='https://raw.githubusercontent.com/AlirezaIvaz/TablerIcons/main/assets/github.svg'/></a>
+<a href='https://cafebazaar.ir/app/ir.alirezaivaz.tablericons.demo'><img height=70 alt='Get it on Bazaar' src='https://raw.githubusercontent.com/AlirezaIvaz/TablerIcons/main/assets/cafebazaar.svg'/></a>
+<a href='https://myket.ir/app/ir.alirezaivaz.tablericons.demo'><img height=70 alt='Get it on Myket' src='https://raw.githubusercontent.com/AlirezaIvaz/TablerIcons/main/assets/myket.svg'/></a>
+
 ## Adding to your project
 
 ### 1. Adding the library repository
